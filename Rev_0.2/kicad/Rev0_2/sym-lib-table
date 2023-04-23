@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name KaJUSBhub-rescue)(type Legacy)(uri ${KIPRJMOD}/KaJUSBhub-rescue.lib)(options "")(descr ""))
+  (lib (name MCU_Microchip_PIC181)(type Legacy)(uri /Users/Tom/Documents/KiCad/library/MCU_Microchip_PIC18/MCU_Microchip_PIC18.lib)(options "")(descr ""))
+  (lib (name fe)(type Legacy)(uri /Users/Tom/Documents/KiCad/library/fe.lib)(options "")(descr ""))
+  (lib (name TMO_conn)(type Legacy)(uri /Users/Tom/Documents/KiCad/library/TMO/TMO_conn.lib)(options "")(descr ""))
+  (lib (name DPDT_SWITCH)(type Legacy)(uri ${KIPRJMOD}/library/DPDT_SWITCH.lib)(options "")(descr ""))
+)
