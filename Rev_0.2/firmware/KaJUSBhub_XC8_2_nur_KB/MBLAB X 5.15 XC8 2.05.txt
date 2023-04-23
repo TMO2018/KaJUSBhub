@@ -1,0 +1,3 @@
+Versionen IDE und Compiler
+
+27.03.2019 Keymapping auf dem MISTer C64-Core angepasst
