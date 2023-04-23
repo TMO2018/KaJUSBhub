@@ -22,3 +22,5 @@ https://www.waitingforfriday.com/?p=470
 
 Rev 0.1
 
+Hinweis: In den Schaltplänen der Versionen 0.1 und 0.2 ist der Mikrokontroller mit PIC18F4450 beschriftet. Richtig ist aber PIC18F4550. Beide Mikrokontroller sind pin-kompatibel.
+
