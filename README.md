@@ -18,6 +18,7 @@ Version mit seperaten Mikrocontrollern PIC18F4550 für C64-Tastatur und -Joystic
 Die Firmware basiert auf dem Projekt C64 VICE front-end von Simon Inns.
 https://www.waitingforfriday.com/?p=470
 
-![IMG_Rev_0 1](https://user-images.githubusercontent.com/39234805/233852075-2b080397-f2e0-45f2-a679-e3c99141394c.JPG)
+![IMG_Rev_0 1](https://user-images.githubusercontent.com/39234805/233852162-7a57359d-9870-4112-be92-09a7e47faf0a.JPG)
+
 Rev 0.1
 
