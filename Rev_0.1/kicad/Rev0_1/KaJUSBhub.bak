@@ -1,0 +1,255 @@
+EESchema Schematic File Version 4
+LIBS:KaJUSBhub-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title "KaJUSBhub"
+Date "11.11.2018"
+Rev "0.1"
+Comp "TMO"
+Comment1 "Keyboard and Joystick USB-Hub"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1400 3250 4900 1150
+U 5BE857FB
+F0 "KaJ" 60
+F1 "KaJ.sch" 60
+$EndSheet
+$Sheet
+S 1400 4750 4900 1100
+U 5BE85822
+F0 "USBhub" 60
+F1 "USBhub.sch" 60
+$EndSheet
+$Comp
+L Device:Fuse F1
+U 1 1 5BE88725
+P 5650 1350
+F 0 "F1" V 5730 1350 50  0000 C CNN
+F 1 "0,5A flink" V 5575 1350 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_inline_Type-I" V 5580 1350 50  0001 C CNN
+F 3 "" H 5650 1350 50  0001 C CNN
+	1    5650 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F2
+U 1 1 5BE88785
+P 5650 1650
+F 0 "F2" V 5730 1650 50  0000 C CNN
+F 1 "1,0A flink" V 5575 1650 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_inline_Type-I" V 5580 1650 50  0001 C CNN
+F 3 "" H 5650 1650 50  0001 C CNN
+	1    5650 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 1650 6150 1650
+$Comp
+L KaJUSBhub-rescue:DIN-7 J1
+U 1 1 5BEAE217
+P 2900 1650
+F 0 "J1" H 3025 1875 50  0000 C CNN
+F 1 "DIN-7" H 2900 1390 50  0000 C CNN
+F 2 "TMO:din-7" H 2900 1650 50  0001 C CNN
+F 3 "" H 2900 1650 50  0001 C CNN
+	1    2900 1650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2600 1750
+NoConn ~ 3200 1750
+$Comp
+L power:GND #PWR01
+U 1 1 5BEAE472
+P 3350 2350
+F 0 "#PWR01" H 3350 2100 50  0001 C CNN
+F 1 "GND" H 3350 2200 50  0000 C CNN
+F 2 "" H 3350 2350 50  0001 C CNN
+F 3 "" H 3350 2350 50  0001 C CNN
+	1    3350 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1650 2250 1650
+Wire Wire Line
+	2250 1200 2250 1650
+Wire Wire Line
+	3200 1650 3350 1650
+Wire Wire Line
+	2900 1350 2900 1200
+Wire Wire Line
+	2900 1200 2250 1200
+Connection ~ 2250 1650
+Wire Wire Line
+	2600 1550 2550 1550
+Wire Wire Line
+	2550 1550 2550 1300
+Wire Wire Line
+	2550 1300 3300 1300
+Wire Wire Line
+	3300 1300 3300 1550
+Connection ~ 3300 1550
+Wire Wire Line
+	3350 2050 2250 2050
+Wire Wire Line
+	3200 1550 3300 1550
+Text GLabel 6150 1350 2    39   Input ~ 0
++5VKaJ
+Text GLabel 6150 1650 2    39   Input ~ 0
++5VUSBhub
+$Comp
+L KaJUSBhub-rescue:Conn_01x01 MH1
+U 1 1 5C03F937
+P 8050 3300
+F 0 "MH1" H 8050 3400 50  0000 C CNN
+F 1 "Conn_01x01" H 8050 3200 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.7mm" H 8050 3300 50  0001 C CNN
+F 3 "" H 8050 3300 50  0001 C CNN
+	1    8050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L KaJUSBhub-rescue:Conn_01x01 MH2
+U 1 1 5C03F965
+P 8050 3600
+F 0 "MH2" H 8050 3700 50  0000 C CNN
+F 1 "Conn_01x01" H 8050 3500 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.7mm" H 8050 3600 50  0001 C CNN
+F 3 "" H 8050 3600 50  0001 C CNN
+	1    8050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L KaJUSBhub-rescue:Conn_01x01 MH3
+U 1 1 5C03F997
+P 8050 3900
+F 0 "MH3" H 8050 4000 50  0000 C CNN
+F 1 "Conn_01x01" H 8050 3800 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.7mm" H 8050 3900 50  0001 C CNN
+F 3 "" H 8050 3900 50  0001 C CNN
+	1    8050 3900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7850 3300
+NoConn ~ 7850 3600
+NoConn ~ 7850 3900
+$Comp
+L KaJUSBhub-rescue:Conn_01x01 MH4
+U 1 1 5C0667BB
+P 8050 4200
+F 0 "MH4" H 8050 4300 50  0000 C CNN
+F 1 "Conn_01x01" H 8050 4100 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.7mm" H 8050 4200 50  0001 C CNN
+F 3 "" H 8050 4200 50  0001 C CNN
+	1    8050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L KaJUSBhub-rescue:Conn_01x01 MH5
+U 1 1 5C0667E6
+P 8050 4500
+F 0 "MH5" H 8050 4600 50  0000 C CNN
+F 1 "Conn_01x01" H 8050 4400 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.7mm" H 8050 4500 50  0001 C CNN
+F 3 "" H 8050 4500 50  0001 C CNN
+	1    8050 4500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7850 4200
+NoConn ~ 7850 4500
+Wire Wire Line
+	2250 1650 2250 2050
+Wire Wire Line
+	3300 1550 3600 1550
+$Comp
+L DPDT_SWITCH:DPDT_SWITCH SW1
+U 1 1 5CDA5C8F
+P 3900 1550
+F 0 "SW1" V 3576 1550 50  0000 C CNN
+F 1 "DPDT_SWITCH" V 3675 1675 59  0001 L BNN
+F 2 "TMO:DPDT_SWITCH" H 3900 1550 50  0001 C CNN
+F 3 "" H 3900 1550 50  0001 C CNN
+	1    3900 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L DPDT_SWITCH:DPDT_SWITCH SW1
+U 2 1 5CDA5D07
+P 3900 1850
+F 0 "SW1" V 3667 1850 50  0000 C CNN
+F 1 "DPDT_SWITCH" V 3675 1975 59  0001 L BNN
+F 2 "TMO:DPDT_SWITCH" H 3900 1850 50  0001 C CNN
+F 3 "" H 3900 1850 50  0001 C CNN
+	2    3900 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 1650 3350 2050
+Wire Wire Line
+	5800 1350 6150 1350
+Wire Wire Line
+	3350 2350 3350 2050
+Connection ~ 3350 2050
+NoConn ~ 4100 1450
+NoConn ~ 4100 1750
+Wire Wire Line
+	3600 1550 3600 1850
+Wire Wire Line
+	3600 1850 3700 1850
+Connection ~ 3600 1550
+Wire Wire Line
+	3600 1550 3700 1550
+Wire Wire Line
+	4100 1650 4750 1650
+Wire Wire Line
+	5500 1350 4750 1350
+Wire Wire Line
+	4750 1350 4750 1650
+Connection ~ 4750 1650
+Wire Wire Line
+	4750 1650 5500 1650
+$Comp
+L Device:Fuse F3
+U 1 1 5C75A6A1
+P 5650 1950
+F 0 "F3" V 5730 1950 50  0000 C CNN
+F 1 "2,0A träge" V 5575 1950 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_inline_Type-I" V 5580 1950 50  0001 C CNN
+F 3 "" H 5650 1950 50  0001 C CNN
+	1    5650 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 1950 4100 1950
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5C75C64E
+P 6400 1950
+F 0 "J2" H 6480 1942 50  0000 L CNN
+F 1 "Versorgung MISTer" H 6480 1851 50  0000 L CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 6400 1950 50  0001 C CNN
+F 3 "~" H 6400 1950 50  0001 C CNN
+	1    6400 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1950 6200 1950
+$Comp
+L power:GND #PWR02
+U 1 1 5C75C934
+P 6200 2350
+F 0 "#PWR02" H 6200 2100 50  0001 C CNN
+F 1 "GND" H 6200 2200 50  0000 C CNN
+F 2 "" H 6200 2350 50  0001 C CNN
+F 3 "" H 6200 2350 50  0001 C CNN
+	1    6200 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2050 6200 2350
+$EndSCHEMATC
