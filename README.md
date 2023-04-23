@@ -9,12 +9,15 @@ Auf der Platine enthalten sind:
 
 Die Spannungsversorgung erfolgt mit einem C64-Netzteil.
 
-Rev 1.0:
+Rev 0.1:
 Version mit einem gemeinsamen Mikrocontroller PIC18F4550 für C64-Tastatur und -Joysticks
 
-Rev 2.0:
+Rev 0.2:
 Version mit seperaten Mikrocontrollern PIC18F4550 für C64-Tastatur und -Joysticks
 
 Die Firmware basiert auf dem Projekt C64 VICE front-end von Simon Inns.
 https://www.waitingforfriday.com/?p=470
+
+![IMG_Rev_0 1](https://user-images.githubusercontent.com/39234805/233852075-2b080397-f2e0-45f2-a679-e3c99141394c.JPG)
+Rev 0.1
 
