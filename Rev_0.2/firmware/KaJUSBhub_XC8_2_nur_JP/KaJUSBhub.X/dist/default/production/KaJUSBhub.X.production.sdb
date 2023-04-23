@@ -1,0 +1,1199 @@
+[p GLOBOPT AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"432 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/USB Stack/usb_device.c
+[e E3897 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"444
+[e E3 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"1009
+[e E3680 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"1369
+[e E3906 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+]
+"105 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/main.c
+[e E3850 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"50 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/joystick.c
+[e E3023 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"35 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/keyboard.h
+[e E3023 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"118 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/usb_callback.c
+[e E3680 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"119
+[e E3906 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+]
+"35 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/keyboard.h
+[e E3023 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"41 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/joystick.c
+[v _initialiseJoysticks initialiseJoysticks `(v  1 e 1 0 ]
+"67
+[v _readJoystickState readJoystickState `(v  1 e 1 0 ]
+"185
+[v _processJoystick_j1 processJoystick_j1 `(v  1 e 1 0 ]
+"251
+[v _processJoystick_j2 processJoystick_j2 `(v  1 e 1 0 ]
+"315
+[v _readADC readADC `(i  1 e 2 0 ]
+"61 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/main.c
+[v _initialise initialise `(v  1 e 1 0 ]
+"67
+[v _main main `(v  1 e 1 0 ]
+"31 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/USB Stack/joystick1_hid.c
+[v _USBCheckHIDRequest_j1 USBCheckHIDRequest_j1 `(v  1 e 1 0 ]
+"31 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/USB Stack/joystick2_hid.c
+[v _USBCheckHIDRequest_j2 USBCheckHIDRequest_j2 `(v  1 e 1 0 ]
+"31 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/USB Stack/keyboard1_hid.c
+[v _USBCheckHIDRequest_k1 USBCheckHIDRequest_k1 `(v  1 e 1 0 ]
+"675 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/USB Stack/usb_device.c
+[v _USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+"781
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 1 0 ]
+"1089
+[v _USBStallHandler USBStallHandler `(v  1 e 1 0 ]
+"1132
+[v _USBSuspend USBSuspend `(v  1 e 1 0 ]
+"1189
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 e 1 0 ]
+"1254
+[v _USBCtrlEPService USBCtrlEPService `(v  1 e 1 0 ]
+"1348
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 e 1 0 ]
+"1395
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 e 1 0 ]
+"1445
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 e 1 0 ]
+"1517
+[v _USBPrepareForNextSetupTrf USBPrepareForNextSetupTrf `(v  1 e 1 0 ]
+"1563
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 e 1 0 ]
+"1628
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 e 1 0 ]
+"1767
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 e 1 0 ]
+"1829
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 e 1 0 ]
+"1914
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 e 1 0 ]
+"2061
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 e 1 0 ]
+"2156
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 e 1 0 ]
+"2234
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 e 1 0 ]
+"2281
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 e 1 0 ]
+"2380
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 1 0 ]
+"2480
+[v _USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+"40 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/usb_callback.c
+[v _USBCBSuspend USBCBSuspend `(v  1 e 1 0 ]
+"52
+[v _USBCBWakeFromSuspend USBCBWakeFromSuspend `(v  1 e 1 0 ]
+"57
+[v _USBCB_SOF_Handler USBCB_SOF_Handler `(v  1 e 1 0 ]
+"66
+[v _USBCBErrorHandler USBCBErrorHandler `(v  1 e 1 0 ]
+"73
+[v _USBCBCheckOtherReq USBCBCheckOtherReq `(v  1 e 1 0 ]
+"85
+[v _USBCBStdSetDscHandler USBCBStdSetDscHandler `(v  1 e 1 0 ]
+"91
+[v _USBCBInitEP USBCBInitEP `(v  1 e 1 0 ]
+"117
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(E3  1 e 1 0 ]
+"32 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"4 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"19 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"7 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+"10 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"38 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/joystick.c
+[v _lastTransmission_j1 lastTransmission_j1 `*.39v  1 e 2 0 ]
+"39
+[v _lastTransmission_j2 lastTransmission_j2 `*.39v  1 e 2 0 ]
+[s S2738 switchState 2 `uc 1 state 1 0 `uc 1 debounceCount 1 1 ]
+"52 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/joystick.h
+[s S2741 joystickState 15 `[5]S2738 1 joystickSwitch 10 0 `uc 1 paddleConnected 1 10 `i 1 paddleX 2 11 `i 1 paddleY 2 13 ]
+[v _joystick joystick `[2]S2741  1 e 30 0 ]
+[s S2746 . 2 `uc 1 square 1 0 :1:0 
+`uc 1 x 1 0 :1:1 
+`uc 1 o 1 0 :1:2 
+`uc 1 triangle 1 0 :1:3 
+`uc 1 L1 1 0 :1:4 
+`uc 1 R1 1 0 :1:5 
+`uc 1 L2 1 0 :1:6 
+`uc 1 R2 1 0 :1:7 
+`uc 1 select 1 1 :1:0 
+`uc 1 start 1 1 :1:1 
+`uc 1 left_stick 1 1 :1:2 
+`uc 1 right_stick 1 1 :1:3 
+`uc 1 home 1 1 :1:4 
+`uc 1 . 1 1 :3:5 
+]
+"92
+[s S2761 . 1 `uc 1 hat_switch 1 0 :4:0 
+`uc 1 . 1 0 :4:4 
+]
+[s S2764 . 4 `uc 1 X 1 0 `uc 1 Y 1 1 `uc 1 Z 1 2 `uc 1 Rz 1 3 ]
+[s S2769 . 7 `S2746 1 buttons 2 0 `S2761 1 hat_switch 1 2 `S2764 1 analog_stick 4 3 ]
+[u S2773 _INTPUT_CONTROLS_TYPEDEF 7 `S2769 1 members 7 0 `[7]uc 1 val 7 0 ]
+[v _joystick_input_j1 joystick_input_j1 `S2773  1 e 7 @1555 ]
+"93
+[v _joystick_input_j2 joystick_input_j2 `S2773  1 e 7 @1622 ]
+[s S3342 keyboardState 2 `uc 1 state 1 0 `uc 1 debounceCount 1 1 ]
+"41 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/keyboard.c
+[v _keyboard keyboard `[65]S3342  1 e 130 0 ]
+"44
+[v _rawKeyboardState rawKeyboardState `[65]uc  1 e 65 0 ]
+"33 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/keyboard.h
+[v _lastINTransmission_k1 lastINTransmission_k1 `*.39v  1 e 2 0 ]
+"34
+[v _lastOUTTransmission_k1 lastOUTTransmission_k1 `*.39v  1 e 2 0 ]
+"37 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/keymap.h
+[v _keymap keymap `C[65]uc  1 e 65 0 ]
+"15 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/USB Stack/joystick1_hid.c
+[v _idle_rate_j1 idle_rate_j1 `uc  1 e 1 0 ]
+"16
+[v _active_protocol_j1 active_protocol_j1 `uc  1 e 1 0 ]
+"15 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/USB Stack/joystick2_hid.c
+[v _idle_rate_j2 idle_rate_j2 `uc  1 e 1 0 ]
+"16
+[v _active_protocol_j2 active_protocol_j2 `uc  1 e 1 0 ]
+"15 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/USB Stack/keyboard1_hid.c
+[v _idle_rate_k1 idle_rate_k1 `uc  1 e 1 0 ]
+"16
+[v _active_protocol_k1 active_protocol_k1 `uc  1 e 1 0 ]
+[s S662 _USB_DEVICE_DESCRIPTOR 18 `uc 1 bLength 1 0 `uc 1 bDescriptorType 1 1 `us 1 bcdUSB 2 2 `uc 1 bDeviceClass 1 4 `uc 1 bDeviceSubClass 1 5 `uc 1 bDeviceProtocol 1 6 `uc 1 bMaxPacketSize0 1 7 `us 1 idVendor 2 8 `us 1 idProduct 2 10 `us 1 bcdDevice 2 12 `uc 1 iManufacturer 1 14 `uc 1 iProduct 1 15 `uc 1 iSerialNumber 1 16 `uc 1 bNumConfigurations 1 17 ]
+"14 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/USB Stack/usb_descriptors.c
+[v _device_dsc device_dsc `CS662  1 e 18 0 ]
+"33
+[v _configDescriptor1 configDescriptor1 `C[105]uc  1 e 105 0 ]
+[s S677 . 4 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[1]us 1 string 2 2 ]
+"154
+[v _sd000 sd000 `CS677  1 e 4 0 ]
+[s S681 . 22 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[10]us 1 string 20 2 ]
+"159
+[v _sd001 sd001 `CS681  1 e 22 0 ]
+[s S685 . 34 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[16]us 1 string 32 2 ]
+"165
+[v _sd002 sd002 `CS685  1 e 34 0 ]
+[s S689 . 36 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[17]us 1 string 34 2 ]
+"171
+[v _sd003 sd003 `CS689  1 e 36 0 ]
+"177
+[v _sd004 sd004 `CS689  1 e 36 0 ]
+[s S697 . 26 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[12]us 1 string 24 2 ]
+"183
+[v _sd005 sd005 `CS697  1 e 26 0 ]
+"189
+[v _USB_CD_Ptr USB_CD_Ptr `C[1]*.25Cuc  1 e 2 0 ]
+"195
+[v _USB_SD_Ptr USB_SD_Ptr `C[6]*.25Cuc  1 e 12 0 ]
+[s S347 . 74 `[74]uc 1 report 74 0 ]
+"205
+[v _hid_rpt01_j1 hid_rpt01_j1 `CS347  1 e 74 0 ]
+"245
+[v _hid_rpt01_j2 hid_rpt01_j2 `CS347  1 e 74 0 ]
+[s S705 . 63 `[63]uc 1 report 63 0 ]
+"286
+[v _hid_rpt01_k1 hid_rpt01_k1 `CS705  1 e 63 0 ]
+"432 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/USB Stack/usb_device.c
+[v _USBDeviceState USBDeviceState `E3897  1 e 1 0 ]
+"433
+[v _USBActiveConfiguration USBActiveConfiguration `uc  1 e 1 0 ]
+"434
+[v _USBAlternateInterface USBAlternateInterface `[1]uc  1 e 1 0 ]
+[s S770 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"435
+[s S779 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 . 1 0 :1:7 
+]
+[s S788 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S792 _BD_STAT 1 `uc 1 Val 1 0 `S770 1 . 1 0 `S779 1 . 1 0 `S788 1 . 1 0 ]
+[s S797 . 4 `S792 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S802 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`*.39uc 1 ADR 2 2 ]
+[u S806 __BDT 4 `S797 1 . 4 0 `S802 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v _pBDTEntryEP0OutCurrent pBDTEntryEP0OutCurrent `*.39VES806  1 e 2 0 ]
+"436
+[v _pBDTEntryEP0OutNext pBDTEntryEP0OutNext `*.39VES806  1 e 2 0 ]
+"437
+[v _pBDTEntryOut pBDTEntryOut `[4]*.39VES806  1 e 8 0 ]
+"438
+[v _pBDTEntryIn pBDTEntryIn `[4]*.39VES806  1 e 8 0 ]
+"439
+[v _shortPacketStatus shortPacketStatus `uc  1 e 1 0 ]
+"440
+[v _controlTransferState controlTransferState `uc  1 e 1 0 ]
+[u S322 . 3 `*.2uc 1 bRam 3 0 `*.2Cuc 1 bRom 3 0 `*.2us 1 wRam 3 0 `*.2Cus 1 wRom 3 0 ]
+"441
+[s S327 . 1 `uc 1 ctrl_trf_mem 1 0 :1:0 
+`uc 1 reserved 1 0 :5:1 
+`uc 1 includeZero 1 0 :1:6 
+`uc 1 busy 1 0 :1:7 
+]
+[u S332 . 1 `S327 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S30 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S33 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S50 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S30 1 byte 2 0 `S33 1 bits 2 0 ]
+[s S335 . 6 `S322 1 pSrc 3 0 `S332 1 info 1 3 `S50 1 wCount 2 4 ]
+[v _inPipes inPipes `[1]S335  1 e 6 0 ]
+[u S853 . 3 `*.2uc 1 bRam 3 0 `*.2us 1 wRam 3 0 ]
+"442
+[s S856 . 1 `uc 1 reserved 1 0 :7:0 
+`uc 1 busy 1 0 :1:7 
+]
+[u S859 . 1 `S856 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S863 . 8 `S853 1 pDst 3 0 `S859 1 info 1 3 `S50 1 wCount 2 4 `*.37(v 1 pFunc 2 6 ]
+[v _outPipes outPipes `[1]S863  1 e 8 0 ]
+"443
+[v _pDst pDst `*.39uc  1 e 2 0 ]
+"444
+[v _RemoteWakeup RemoteWakeup `E3  1 e 1 0 ]
+"445
+[v _USTATcopy USTATcopy `uc  1 e 1 0 ]
+"446
+[v _BothEP0OutUOWNsSet BothEP0OutUOWNsSet `E3  1 e 1 0 ]
+"480
+[v _BDT BDT `VE[16]S806  1 e 64 @1024 ]
+[s S24 . 8 `uc 1 bmRequestType 1 0 `uc 1 bRequest 1 1 `us 1 wValue 2 2 `us 1 wIndex 2 4 `us 1 wLength 2 6 ]
+"494
+[s S55 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`S50 1 W_Value 2 2 `S50 1 W_Index 2 4 `S50 1 W_Length 2 6 ]
+[s S61 . 8 `uc 1 Recipient 1 0 :5:0 
+`uc 1 RequestType 1 0 :2:5 
+`uc 1 DataDir 1 0 :1:7 
+`uc 1 . 1 1 :8:0 
+`uc 1 bFeature 1 2 `uc 1 . 1 3 :8:0 
+`uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S72 . 1 `uc 1 recipient 1 0 :5:0 
+`uc 1 type 1 0 :2:5 
+`uc 1 direction 1 0 :1:7 
+]
+[u S76 . 1 `uc 1 bmRequestType 1 0 `S72 1 . 1 0 ]
+[s S79 . 1 `S76 1 requestInfo 1 0 ]
+[s S81 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDscIndex 1 2 `uc 1 bDescriptorType 1 3 `us 1 wLangID 2 4 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S89 . 1 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+]
+[u S98 . 1 `uc 1 Val 1 0 `S89 1 bits 1 0 ]
+[s S101 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`S98 1 bDevADR 1 2 `uc 1 bDevADRH 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S110 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bConfigurationValue 1 2 `uc 1 bCfgRSD 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S119 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bAltID 1 2 `uc 1 bAltID_H 1 3 `uc 1 bIntfID 1 4 `uc 1 bIntfID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S128 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 bEPID 1 4 `uc 1 bEPID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S137 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 EPNum 1 4 :4:0 
+`uc 1 . 1 4 :3:4 
+`uc 1 EPDir 1 4 :1:7 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[u S148 . 8 `S24 1 . 8 0 `S55 1 . 8 0 `S61 1 . 8 0 `S79 1 . 1 0 `S81 1 . 8 0 `S101 1 . 8 0 `S110 1 . 8 0 `S119 1 . 8 0 `S128 1 . 8 0 `S137 1 . 8 0 ]
+[v _SetupPkt SetupPkt `VES148  1 e 8 @1280 ]
+"495
+[v _CtrlTrfData CtrlTrfData `VE[8]uc  1 e 8 @1312 ]
+"511
+[v _hid_report_out_j1 hid_report_out_j1 `VE[64]uc  1 e 64 @1328 ]
+"512
+[v _hid_report_in_j1 hid_report_in_j1 `VE[64]uc  1 e 64 @1392 ]
+"514
+[v _hid_report_out_j2 hid_report_out_j2 `VE[64]uc  1 e 64 @1456 ]
+"515
+[v _hid_report_in_j2 hid_report_in_j2 `VE[64]uc  1 e 64 @1520 ]
+"517
+[v _hid_report_out_k1 hid_report_out_k1 `VE[1]uc  1 e 1 @1658 ]
+"518
+[v _hid_report_in_k1 hid_report_in_k1 `VE[8]uc  1 e 8 @1659 ]
+"374 /Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f4550.h
+[v _UIR UIR `VEuc  1 e 1 @3944 ]
+[s S1015 . 1 `uc 1 URSTIF 1 0 :1:0 
+`uc 1 UERRIF 1 0 :1:1 
+`uc 1 ACTVIF 1 0 :1:2 
+`uc 1 TRNIF 1 0 :1:3 
+`uc 1 IDLEIF 1 0 :1:4 
+`uc 1 STALLIF 1 0 :1:5 
+`uc 1 SOFIF 1 0 :1:6 
+]
+"390
+[u S1023 . 1 `S1015 1 . 1 0 ]
+[v _UIRbits UIRbits `VES1023  1 e 1 @3944 ]
+"430
+[v _UIE UIE `VEuc  1 e 1 @3945 ]
+[s S1065 . 1 `uc 1 URSTIE 1 0 :1:0 
+`uc 1 UERRIE 1 0 :1:1 
+`uc 1 ACTVIE 1 0 :1:2 
+`uc 1 TRNIE 1 0 :1:3 
+`uc 1 IDLEIE 1 0 :1:4 
+`uc 1 STALLIE 1 0 :1:5 
+`uc 1 SOFIE 1 0 :1:6 
+]
+"446
+[u S1073 . 1 `S1065 1 . 1 0 ]
+[v _UIEbits UIEbits `VES1073  1 e 1 @3945 ]
+"486
+[v _UEIR UEIR `VEuc  1 e 1 @3946 ]
+"537
+[v _UEIE UEIE `VEuc  1 e 1 @3947 ]
+"588
+[v _USTAT USTAT `VEuc  1 e 1 @3948 ]
+"648
+[v _UCON UCON `VEuc  1 e 1 @3949 ]
+[s S986 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SUSPND 1 0 :1:1 
+`uc 1 RESUME 1 0 :1:2 
+`uc 1 USBEN 1 0 :1:3 
+`uc 1 PKTDIS 1 0 :1:4 
+`uc 1 SE0 1 0 :1:5 
+`uc 1 PPBRST 1 0 :1:6 
+]
+"664
+[u S994 . 1 `S986 1 . 1 0 ]
+[v _UCONbits UCONbits `VES994  1 e 1 @3949 ]
+"699
+[v _UADDR UADDR `VEuc  1 e 1 @3950 ]
+"763
+[v _UCFG UCFG `VEuc  1 e 1 @3951 ]
+"842
+[v _UEP0 UEP0 `VEuc  1 e 1 @3952 ]
+[s S1140 . 1 `uc 1 EPSTALL 1 0 :1:0 
+`uc 1 EPINEN 1 0 :1:1 
+`uc 1 EPOUTEN 1 0 :1:2 
+`uc 1 EPCONDIS 1 0 :1:3 
+`uc 1 EPHSHK 1 0 :1:4 
+]
+"870
+[s S1146 . 1 `uc 1 EP0STALL 1 0 :1:0 
+`uc 1 EP0INEN 1 0 :1:1 
+`uc 1 EP0OUTEN 1 0 :1:2 
+`uc 1 EP0CONDIS 1 0 :1:3 
+`uc 1 EP0HSHK 1 0 :1:4 
+]
+[s S1152 . 1 `uc 1 EPSTALL0 1 0 :1:0 
+`uc 1 EPINEN0 1 0 :1:1 
+`uc 1 EPOUTEN0 1 0 :1:2 
+`uc 1 EPCONDIS0 1 0 :1:3 
+`uc 1 EPHSHK0 1 0 :1:4 
+]
+[u S1158 . 1 `S1140 1 . 1 0 `S1146 1 . 1 0 `S1152 1 . 1 0 ]
+[v _UEP0bits UEP0bits `VES1158  1 e 1 @3952 ]
+"950
+[v _UEP1 UEP1 `VEuc  1 e 1 @3953 ]
+"2314
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"2453
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"2563
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"2705
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"2826
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"3427
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"3625
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"3847
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"4223
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S1036 . 1 `uc 1 CCP2IF 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 HLVDIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+`uc 1 EEIF 1 0 :1:4 
+`uc 1 USBIF 1 0 :1:5 
+`uc 1 CMIF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"4728
+[s S1045 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIF 1 0 :1:2 
+]
+[u S1048 . 1 `S1036 1 . 1 0 `S1045 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES1048  1 e 1 @4001 ]
+"6510
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"6581
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"6666
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+"6792
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"6799
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"9756
+[v _GODONE GODONE `VEb  1 e 0 @32273 ]
+"10293
+[v _PKTDIS PKTDIS `VEb  1 e 0 @31596 ]
+"10350
+[v _RA4 RA4 `VEb  1 e 0 @31748 ]
+"10353
+[v _RA5 RA5 `VEb  1 e 0 @31749 ]
+"10359
+[v _RB0 RB0 `VEb  1 e 0 @31752 ]
+"10362
+[v _RB1 RB1 `VEb  1 e 0 @31753 ]
+"10365
+[v _RB2 RB2 `VEb  1 e 0 @31754 ]
+"10368
+[v _RB3 RB3 `VEb  1 e 0 @31755 ]
+"10371
+[v _RB4 RB4 `VEb  1 e 0 @31756 ]
+"10374
+[v _RB5 RB5 `VEb  1 e 0 @31757 ]
+"10377
+[v _RB6 RB6 `VEb  1 e 0 @31758 ]
+"10380
+[v _RB7 RB7 `VEb  1 e 0 @31759 ]
+"10392
+[v _RBPU RBPU `VEb  1 e 0 @32655 ]
+"10395
+[v _RC0 RC0 `VEb  1 e 0 @31760 ]
+"10398
+[v _RC1 RC1 `VEb  1 e 0 @31761 ]
+"10410
+[v _RC2 RC2 `VEb  1 e 0 @31762 ]
+"10509
+[v _RESUME RESUME `VEb  1 e 0 @31594 ]
+"10557
+[v _SE0 SE0 `VEb  1 e 0 @31597 ]
+"10701
+[v _SUSPND SUSPND `VEb  1 e 0 @31593 ]
+"10893
+[v _TRISA4 TRISA4 `VEb  1 e 0 @31892 ]
+"10896
+[v _TRISA5 TRISA5 `VEb  1 e 0 @31893 ]
+"10941
+[v _TRISD0 TRISD0 `VEb  1 e 0 @31912 ]
+"10944
+[v _TRISD1 TRISD1 `VEb  1 e 0 @31913 ]
+"10947
+[v _TRISD2 TRISD2 `VEb  1 e 0 @31914 ]
+"10950
+[v _TRISD3 TRISD3 `VEb  1 e 0 @31915 ]
+"10953
+[v _TRISD4 TRISD4 `VEb  1 e 0 @31916 ]
+"10956
+[v _TRISD5 TRISD5 `VEb  1 e 0 @31917 ]
+"10959
+[v _TRISD6 TRISD6 `VEb  1 e 0 @31918 ]
+"10962
+[v _TRISD7 TRISD7 `VEb  1 e 0 @31919 ]
+"67 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"148
+} 0
+"67 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/joystick.c
+[v _readJoystickState readJoystickState `(v  1 e 1 0 ]
+{
+"69
+[v readJoystickState@port port `uc  1 a 1 76 ]
+"182
+} 0
+"315
+[v _readADC readADC `(i  1 e 2 0 ]
+{
+[v readADC@ADCnumber ADCnumber `uc  1 a 1 wreg ]
+"318
+[v readADC@calc calc `f  1 a 3 71 ]
+"317
+[v readADC@adcResult adcResult `i  1 a 2 69 ]
+"315
+[v readADC@ADCnumber ADCnumber `uc  1 a 1 wreg ]
+[v readADC@ADCnumber ADCnumber `uc  1 a 1 68 ]
+"367
+} 0
+"44 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 10 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 14 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 9 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 0 ]
+"73
+} 0
+"19 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+{
+[v ___ftsub@f1 f1 `f  1 p 3 54 ]
+[v ___ftsub@f2 f2 `f  1 p 3 57 ]
+"26
+} 0
+"86 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+{
+"88
+[v ___ftadd@exp1 exp1 `uc  1 a 1 53 ]
+[v ___ftadd@exp2 exp2 `uc  1 a 1 52 ]
+[v ___ftadd@sign sign `uc  1 a 1 51 ]
+"86
+[v ___ftadd@f1 f1 `f  1 p 3 42 ]
+[v ___ftadd@f2 f2 `f  1 p 3 45 ]
+"148
+} 0
+"62 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 37 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 41 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 40 ]
+[v ___ftmul@exp exp `uc  1 a 1 36 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 27 ]
+[v ___ftmul@f2 f2 `f  1 p 3 30 ]
+"157
+} 0
+"4 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+{
+[v ___ftge@ff1 ff1 `f  1 p 3 0 ]
+[v ___ftge@ff2 ff2 `f  1 p 3 3 ]
+"13
+} 0
+"54 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 22 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 26 ]
+[v ___ftdiv@exp exp `uc  1 a 1 25 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 21 ]
+"54
+[v ___ftdiv@f1 f1 `f  1 p 3 12 ]
+[v ___ftdiv@f2 f2 `f  1 p 3 15 ]
+"86
+} 0
+"32 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 11 ]
+"32
+[v ___awtoft@c c `i  1 p 2 8 ]
+"42
+} 0
+"62 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"251 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/joystick.c
+[v _processJoystick_j2 processJoystick_j2 `(v  1 e 1 0 ]
+{
+"312
+} 0
+"185
+[v _processJoystick_j1 processJoystick_j1 `(v  1 e 1 0 ]
+{
+"248
+} 0
+"61 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/main.c
+[v _initialise initialise `(v  1 e 1 0 ]
+{
+"65
+} 0
+"41 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/joystick.c
+[v _initialiseJoysticks initialiseJoysticks `(v  1 e 1 0 ]
+{
+"43
+[v initialiseJoysticks@loop loop `i  1 a 2 0 ]
+"64
+} 0
+"781 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/USB Stack/usb_device.c
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 1 0 ]
+{
+"784
+[v USBDeviceTasks@i i `uc  1 a 1 23 ]
+"1071
+} 0
+"1189
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 e 1 0 ]
+{
+"1231
+} 0
+"1132
+[v _USBSuspend USBSuspend `(v  1 e 1 0 ]
+{
+"1172
+} 0
+"1089
+[v _USBStallHandler USBStallHandler `(v  1 e 1 0 ]
+{
+"1114
+} 0
+"675
+[v _USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+{
+"677
+[v USBDeviceInit@i i `uc  1 a 1 8 ]
+"736
+} 0
+"1254
+[v _USBCtrlEPService USBCtrlEPService `(v  1 e 1 0 ]
+{
+"1281
+[v USBCtrlEPService@setup_cnt setup_cnt `uc  1 a 1 21 ]
+"1306
+} 0
+"1348
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 e 1 0 ]
+{
+"1374
+} 0
+"1914
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 e 1 0 ]
+{
+"2035
+} 0
+"1563
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 e 1 0 ]
+{
+"1610
+} 0
+"2234
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 e 1 0 ]
+{
+"2262
+} 0
+"8 /Applications/microchip/xc8/v2.32/pic/sources/c90/common/memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+{
+"15
+[v memset@p p `*.39uc  1 a 2 6 ]
+"8
+[v memset@p1 p1 `*.39v  1 p 2 0 ]
+[v memset@c c `i  1 p 2 2 ]
+[v memset@n n `ui  1 p 2 4 ]
+"22
+} 0
+"117 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/usb_callback.c
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(E3  1 e 1 0 ]
+{
+[v USER_USB_CALLBACK_EVENT_HANDLER@event event `E3680  1 p 2 11 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@pdata pdata `*.39v  1 p 2 13 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@size size `us  1 p 2 15 ]
+"149
+} 0
+"57
+[v _USBCB_SOF_Handler USBCB_SOF_Handler `(v  1 e 1 0 ]
+{
+"61
+} 0
+"52
+[v _USBCBWakeFromSuspend USBCBWakeFromSuspend `(v  1 e 1 0 ]
+{
+"54
+} 0
+"40
+[v _USBCBSuspend USBCBSuspend `(v  1 e 1 0 ]
+{
+"42
+} 0
+"85
+[v _USBCBStdSetDscHandler USBCBStdSetDscHandler `(v  1 e 1 0 ]
+{
+"88
+} 0
+"91
+[v _USBCBInitEP USBCBInitEP `(v  1 e 1 0 ]
+{
+"99
+} 0
+"2480 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/USB Stack/usb_device.c
+[v _USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+{
+[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[s S770 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2482
+[s S779 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 . 1 0 :1:7 
+]
+[s S788 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S792 _BD_STAT 1 `uc 1 Val 1 0 `S770 1 . 1 0 `S779 1 . 1 0 `S788 1 . 1 0 ]
+[s S797 . 4 `S792 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S802 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`*.39uc 1 ADR 2 2 ]
+[u S806 __BDT 4 `S797 1 . 4 0 `S802 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBTransferOnePacket@handle handle `*.39VES806  1 a 2 5 ]
+"2480
+[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[v USBTransferOnePacket@dir dir `uc  1 p 1 0 ]
+[v USBTransferOnePacket@data data `*.39uc  1 p 2 1 ]
+[v USBTransferOnePacket@len len `uc  1 p 1 3 ]
+"2485
+[v USBTransferOnePacket@ep ep `uc  1 a 1 4 ]
+"2524
+} 0
+"2380
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 1 0 ]
+{
+[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
+"2385
+[v USBEnableEndpoint@p p `*.39uc  1 a 2 8 ]
+"2380
+[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
+[v USBEnableEndpoint@options options `uc  1 p 1 7 ]
+"2390
+[v USBEnableEndpoint@ep ep `uc  1 a 1 10 ]
+"2403
+} 0
+"2281
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 e 1 0 ]
+{
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
+[s S770 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2283
+[s S779 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 . 1 0 :1:7 
+]
+[s S788 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S792 _BD_STAT 1 `uc 1 Val 1 0 `S770 1 . 1 0 `S779 1 . 1 0 `S788 1 . 1 0 ]
+[s S797 . 4 `S792 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S802 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`*.39uc 1 ADR 2 2 ]
+[u S806 __BDT 4 `S797 1 . 4 0 `S802 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBConfigureEndpoint@handle handle `*.39VES806  1 a 2 5 ]
+"2285
+[v USBConfigureEndpoint@workaround workaround `uc  1 a 1 3 ]
+"2281
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
+[v USBConfigureEndpoint@direction direction `uc  1 p 1 0 ]
+"2288
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 4 ]
+"2329
+} 0
+"66 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/usb_callback.c
+[v _USBCBErrorHandler USBCBErrorHandler `(v  1 e 1 0 ]
+{
+"70
+} 0
+"73
+[v _USBCBCheckOtherReq USBCBCheckOtherReq `(v  1 e 1 0 ]
+{
+"82
+} 0
+"31 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/USB Stack/keyboard1_hid.c
+[v _USBCheckHIDRequest_k1 USBCheckHIDRequest_k1 `(v  1 e 1 0 ]
+{
+"102
+} 0
+"31 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/USB Stack/joystick2_hid.c
+[v _USBCheckHIDRequest_j2 USBCheckHIDRequest_j2 `(v  1 e 1 0 ]
+{
+"102
+} 0
+"31 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/USB Stack/joystick1_hid.c
+[v _USBCheckHIDRequest_j1 USBCheckHIDRequest_j1 `(v  1 e 1 0 ]
+{
+"102
+} 0
+"1829 /Users/Tom/MPLABXProjects/KaJUSBhub_XC8_2_nur_JP/USB Stack/usb_device.c
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 e 1 0 ]
+{
+[s S770 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1861
+[s S779 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 . 1 0 :1:7 
+]
+[s S788 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S792 _BD_STAT 1 `uc 1 Val 1 0 `S770 1 . 1 0 `S779 1 . 1 0 `S788 1 . 1 0 ]
+[s S797 . 4 `S792 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S802 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`*.39uc 1 ADR 2 2 ]
+[u S806 __BDT 4 `S797 1 . 4 0 `S802 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdGetStatusHandler@p p `*.39S806  1 a 2 1 ]
+"1884
+} 0
+"1767
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 e 1 0 ]
+{
+"1812
+} 0
+"1628
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 e 1 0 ]
+{
+[s S770 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1630
+[s S779 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 . 1 0 :1:7 
+]
+[s S788 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S792 _BD_STAT 1 `uc 1 Val 1 0 `S770 1 . 1 0 `S779 1 . 1 0 `S788 1 . 1 0 ]
+[s S797 . 4 `S792 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S802 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`*.39uc 1 ADR 2 2 ]
+[u S806 __BDT 4 `S797 1 . 4 0 `S802 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdFeatureReqHandler@p p `*.39S806  1 a 2 4 ]
+"1634
+[v USBStdFeatureReqHandler@pUEP pUEP `*.39ui  1 a 2 2 ]
+"1749
+} 0
+"1395
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 e 1 0 ]
+{
+"1420
+} 0
+"2156
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 e 1 0 ]
+{
+"2158
+[v USBCtrlTrfRxService@byteToRead byteToRead `uc  1 a 1 1 ]
+"2159
+[v USBCtrlTrfRxService@i i `uc  1 a 1 0 ]
+"2214
+} 0
+"1445
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 e 1 0 ]
+{
+"1447
+[v USBCtrlTrfInHandler@lastDTS lastDTS `uc  1 a 1 2 ]
+"1498
+} 0
+"1517
+[v _USBPrepareForNextSetupTrf USBPrepareForNextSetupTrf `(v  1 e 1 0 ]
+{
+[s S770 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1528
+[s S779 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 . 1 0 :1:7 
+]
+[s S788 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S792 _BD_STAT 1 `uc 1 Val 1 0 `S770 1 . 1 0 `S779 1 . 1 0 `S788 1 . 1 0 ]
+[s S797 . 4 `S792 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S802 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`*.39uc 1 ADR 2 2 ]
+[u S806 __BDT 4 `S797 1 . 4 0 `S802 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBPrepareForNextSetupTrf@p p `*.39S806  1 a 2 0 ]
+"1545
+} 0
+"2061
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 e 1 0 ]
+{
+[s S30 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+"2063
+[s S33 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S50 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S30 1 byte 2 0 `S33 1 bits 2 0 ]
+[v USBCtrlTrfTxService@byteToSend byteToSend `S50  1 a 2 0 ]
+"2129
+} 0
